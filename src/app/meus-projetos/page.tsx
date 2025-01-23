@@ -13,12 +13,6 @@ import {
 } from "@/components/ui/card"
 import Link from "next/link";
 
-const projects = [
-    {
-        title: "Square Cloud Mobile", desc: "Um simples App Mobile Dashboard para controlar seus aplicativos na rede de Hospedagens SquareCloud",
-
-    }
-];
 
 export default function Projects() {
     return (

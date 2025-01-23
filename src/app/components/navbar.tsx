@@ -16,7 +16,6 @@ const navLinkStyle = `${navigationMenuTriggerStyle()} group px-5 py-2 text-md fo
 export default function NavBar() {
     const pathname = usePathname();
 
-    // Verifica se a rota atual é a Home
     const isHomeRoute = pathname === "/";
 
     return (
