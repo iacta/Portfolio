@@ -5,7 +5,6 @@ import Image from "next/image";
 import Rocket from "@/../public/rocket.svg";
 import {
     Card,
-    CardContent,
     CardDescription,
     CardFooter,
     CardHeader,
