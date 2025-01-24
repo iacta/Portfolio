@@ -1,3 +1,5 @@
+'use client';
+
 import * as React from "react";
 import Link from "next/link";
 import { usePathname } from 'next/navigation';
@@ -48,7 +50,7 @@ export default function NavBar() {
                                 </Link>
                             </NavigationMenuItem>
                             <NavigationMenuItem>
-                                <Link href="https://w.app/JDTdlH" target="_blank" rel="noopener noreferrer">
+                                <Link href="https://w.app/JDTdlH" target="_blank" legacyBehavior passHref>
                                     <NavigationMenuLink className={navLinkStyle}>
                                         Contato
                                     </NavigationMenuLink>
